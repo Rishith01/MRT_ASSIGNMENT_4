@@ -1,0 +1,13 @@
+[  2%] Built target custom_msgs__cpp
+[  5%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/srv/detail/corners__functions.c.o[0m
+[  5%] Built target ament_cmake_python_symlink_custom_msgs
+[ 10%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/srv/corners__type_support.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/srv/detail/corners__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/srv/detail/dds_fastrtps/corners__type_support.cpp.o[0m
+running egg_info
+writing custom_msgs.egg-info/PKG-INFO
+writing dependency_links to custom_msgs.egg-info/dependency_links.txt
+writing top-level names to custom_msgs.egg-info/top_level.txt
+reading manifest file 'custom_msgs.egg-info/SOURCES.txt'
+writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_custom_msgs_egg

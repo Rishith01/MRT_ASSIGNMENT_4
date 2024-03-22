@@ -1,0 +1,2 @@
+Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs': /usr/bin/cmake /home/rishith/MRT/MRT_ASSIGNMENT_4/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs
+Invoked command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs' returned '1': /usr/bin/cmake /home/rishith/MRT/MRT_ASSIGNMENT_4/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs

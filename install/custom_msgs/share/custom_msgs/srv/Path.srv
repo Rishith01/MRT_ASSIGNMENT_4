@@ -1,0 +1,4 @@
+int64[] ids
+int64[] corners
+---
+int64[] path

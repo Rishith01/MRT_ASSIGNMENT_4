@@ -1,0 +1,15 @@
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/path.sh
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/path.dsv
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.bash
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.sh
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.zsh
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.dsv
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.dsv
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.xml

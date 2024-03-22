@@ -1,0 +1,9 @@
+/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces/CMakeFiles/uninstall.dir
+/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces/CMakeFiles/more_interfaces_uninstall.dir
+/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces/CMakeFiles/test.dir
+/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces/CMakeFiles/edit_cache.dir
+/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces/CMakeFiles/rebuild_cache.dir
+/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces/CMakeFiles/list_install_components.dir
+/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces/CMakeFiles/install.dir
+/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces/CMakeFiles/install/local.dir
+/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces/CMakeFiles/install/strip.dir

@@ -1,0 +1,254 @@
+[0.062s] Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs -- -j12 -l12
+[0.081s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.183s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.210s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.231s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.369s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.609s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.782s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.023s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.038s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.038s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.038s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.068s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.074s] -- Added test 'lint_cmake' to check CMake code style
+[1.074s] -- Added test 'xmllint' to check XML markup files
+[1.075s] -- Configuring done
+[1.102s] -- Generating done
+[1.104s] -- Build files have been written to: /home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs
+[1.126s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.130s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.139s] [  5%] Built target ament_cmake_python_copy_custom_msgs
+[1.341s] running egg_info
+[1.342s] writing custom_msgs.egg-info/PKG-INFO
+[1.342s] writing dependency_links to custom_msgs.egg-info/dependency_links.txt
+[1.342s] writing top-level names to custom_msgs.egg-info/top_level.txt
+[1.345s] reading manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[1.347s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[1.370s] [  5%] Built target ament_cmake_python_build_custom_msgs_egg
+[1.417s] [  5%] Built target custom_msgs__cpp
+[1.426s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.429s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.429s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.521s] [35m[1mConsolidate compiler generated dependencies of target custom_msgs__rosidl_generator_c[0m
+[1.533s] [ 15%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/srv/detail/corners__functions.c.o[0m
+[1.535s] [ 17%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/srv/detail/path__functions.c.o[0m
+[1.622s] [ 20%] [32m[1mLinking C shared library libcustom_msgs__rosidl_generator_c.so[0m
+[1.670s] [ 20%] Built target custom_msgs__rosidl_generator_c
+[1.684s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.685s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.686s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.701s] [35m[1mConsolidate compiler generated dependencies of target custom_msgs__rosidl_typesupport_cpp[0m
+[1.716s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/srv/corners__type_support.cpp.o[0m
+[1.721s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/srv/path__type_support.cpp.o[0m
+[1.799s] [35m[1mConsolidate compiler generated dependencies of target custom_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.819s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/srv/detail/path__type_support.cpp.o[0m
+[1.819s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/srv/detail/corners__type_support.cpp.o[0m
+[1.941s] [35m[1mConsolidate compiler generated dependencies of target custom_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.968s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/srv/detail/dds_fastrtps/corners__type_support.cpp.o[0m
+[1.969s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/srv/detail/dds_fastrtps/path__type_support.cpp.o[0m
+[2.038s] [ 46%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so[0m
+[2.086s] [ 46%] Built target custom_msgs__rosidl_typesupport_cpp
+[2.125s] [35m[1mConsolidate compiler generated dependencies of target custom_msgs__rosidl_typesupport_c[0m
+[2.138s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/srv/corners__type_support.cpp.o[0m
+[2.143s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/srv/path__type_support.cpp.o[0m
+[2.192s] [ 53%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so[0m
+[2.205s] [35m[1mConsolidate compiler generated dependencies of target custom_msgs__rosidl_typesupport_introspection_c[0m
+[2.222s] [35m[1mConsolidate compiler generated dependencies of target custom_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.223s] [ 56%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/srv/detail/path__type_support.c.o[0m
+[2.224s] [ 58%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/srv/detail/corners__type_support.c.o[0m
+[2.242s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/srv/detail/path__type_support_c.cpp.o[0m
+[2.244s] [ 64%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/srv/detail/corners__type_support_c.cpp.o[0m
+[2.248s] [ 64%] Built target custom_msgs__rosidl_typesupport_c
+[2.291s] [ 66%] [32m[1mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.342s] [ 66%] Built target custom_msgs__rosidl_typesupport_introspection_c
+[2.526s] [ 69%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.631s] [ 69%] Built target custom_msgs__rosidl_typesupport_introspection_cpp
+[2.694s] [ 71%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.717s] [ 74%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.782s] [ 74%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp
+[2.787s] [ 74%] Built target custom_msgs__rosidl_typesupport_fastrtps_c
+[2.801s] [ 74%] Built target custom_msgs
+[2.816s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.185s] [ 76%] Built target custom_msgs__py
+[3.193s] [35m[1mConsolidate compiler generated dependencies of target custom_msgs__rosidl_generator_py[0m
+[3.204s] [ 79%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/srv/_corners_s.c.o[0m
+[3.207s] [ 82%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/srv/_path_s.c.o[0m
+[3.330s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/libcustom_msgs__rosidl_generator_py.so[0m
+[3.362s] [ 84%] Built target custom_msgs__rosidl_generator_py
+[3.371s] [35m[1mConsolidate compiler generated dependencies of target custom_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.375s] [35m[1mConsolidate compiler generated dependencies of target custom_msgs__rosidl_typesupport_c__pyext[0m
+[3.375s] [35m[1mConsolidate compiler generated dependencies of target custom_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.383s] [ 87%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.390s] [ 89%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.391s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.480s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.520s] [ 94%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.528s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.530s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.565s] [100%] Built target custom_msgs__rosidl_typesupport_c__pyext
+[3.578s] [100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext
+[3.588s] Invoked command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs -- -j12 -l12
+[3.637s] Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs
+[3.643s] -- Install configuration: ""
+[3.643s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs
+[3.644s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs
+[3.644s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[3.644s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.644s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[3.645s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/path.h
+[3.645s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[3.645s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__functions.h
+[3.645s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__functions.h
+[3.645s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__struct.h
+[3.645s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__type_support.h
+[3.645s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__functions.c
+[3.646s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__type_support.h
+[3.646s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__struct.h
+[3.646s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__functions.c
+[3.646s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/corners.h
+[3.646s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/environment/library_path.sh
+[3.646s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/environment/library_path.dsv
+[3.646s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so
+[3.646s] -- Set runtime path of "/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""
+[3.646s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs
+[3.647s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[3.647s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.647s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[3.647s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[3.647s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__rosidl_typesupport_fastrtps_c.h
+[3.647s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__rosidl_typesupport_fastrtps_c.h
+[3.647s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so
+[3.648s] -- Set runtime path of "/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.648s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs
+[3.648s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[3.648s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.649s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[3.649s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[3.649s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__rosidl_typesupport_introspection_c.h
+[3.649s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__type_support.c
+[3.649s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__rosidl_typesupport_introspection_c.h
+[3.649s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__type_support.c
+[3.649s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so
+[3.649s] -- Set runtime path of "/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.649s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so
+[3.650s] -- Set runtime path of "/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""
+[3.650s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs
+[3.650s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[3.650s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/corners.hpp
+[3.650s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[3.650s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__builder.hpp
+[3.650s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__struct.hpp
+[3.650s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__builder.hpp
+[3.650s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__traits.hpp
+[3.651s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__traits.hpp
+[3.651s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__struct.hpp
+[3.651s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/path.hpp
+[3.651s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs
+[3.651s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[3.651s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.651s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[3.651s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[3.652s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/dds_fastrtps
+[3.652s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[3.652s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__rosidl_typesupport_fastrtps_cpp.hpp
+[3.652s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.652s] -- Set runtime path of "/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.652s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs
+[3.652s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[3.652s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[3.652s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__type_support.cpp
+[3.653s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__type_support.cpp
+[3.653s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[3.653s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/corners__rosidl_typesupport_introspection_cpp.hpp
+[3.653s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so
+[3.653s] -- Set runtime path of "/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.653s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so
+[3.653s] -- Set runtime path of "/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""
+[3.653s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh
+[3.653s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv
+[3.653s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info
+[3.653s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.654s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.654s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.654s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.654s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs
+[3.654s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.654s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so
+[3.654s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.654s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py
+[3.654s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c
+[3.654s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.654s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.655s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv
+[3.655s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_path.py
+[3.655s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_path_s.c
+[3.655s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/__init__.py
+[3.655s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_corners.py
+[3.655s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_corners_s.c
+[3.655s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.687s] Listing '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs'...
+[3.687s] Compiling '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py'...
+[3.687s] Listing '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv'...
+[3.688s] Compiling '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/__init__.py'...
+[3.688s] Compiling '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_corners.py'...
+[3.688s] Compiling '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_path.py'...
+[3.692s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.693s] -- Set runtime path of "/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.693s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.694s] -- Set runtime path of "/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.694s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.694s] -- Set runtime path of "/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.694s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so
+[3.694s] -- Set runtime path of "/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""
+[3.695s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/srv/Corners.idl
+[3.695s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/srv/Path.idl
+[3.695s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/srv/Corners.srv
+[3.695s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/srv/Corners_Request.msg
+[3.695s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/srv/Corners_Response.msg
+[3.696s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/srv/Path.srv
+[3.696s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/srv/Path_Request.msg
+[3.696s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/srv/Path_Response.msg
+[3.696s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs
+[3.696s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs
+[3.696s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh
+[3.696s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv
+[3.697s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/environment/path.sh
+[3.697s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/environment/path.dsv
+[3.697s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/local_setup.bash
+[3.697s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/local_setup.sh
+[3.697s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/local_setup.zsh
+[3.697s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/local_setup.dsv
+[3.698s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/package.dsv
+[3.698s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs
+[3.699s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake
+[3.699s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.700s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.700s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.700s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.700s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.700s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake
+[3.701s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.701s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake
+[3.701s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.701s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.701s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.701s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.701s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake
+[3.702s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.702s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake
+[3.702s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.702s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake
+[3.702s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.703s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.703s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.703s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.703s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.703s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.704s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+[3.704s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+[3.704s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/share/custom_msgs/package.xml
+[3.704s] Invoked command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs

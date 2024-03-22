@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating RRT.egg-info
+writing RRT.egg-info/PKG-INFO
+writing dependency_links to RRT.egg-info/dependency_links.txt
+writing entry points to RRT.egg-info/entry_points.txt
+writing requirements to RRT.egg-info/requires.txt
+writing top-level names to RRT.egg-info/top_level.txt
+writing manifest file 'RRT.egg-info/SOURCES.txt'
+reading manifest file 'RRT.egg-info/SOURCES.txt'
+writing manifest file 'RRT.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/lib/python3.10/site-packages/RRT.egg-link (link to .)
+Installing client script to /home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/lib/RRT
+Installing server = RRT.server:mainpath_planning script to /home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/lib/RRT
+
+Installed /home/rishith/MRT/MRT_ASSIGNMENT_4/build/RRT
+running install_data
+creating /home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/ament_index
+creating /home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/ament_index/resource_index
+creating /home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/ament_index/resource_index/packages
+copying resource/RRT -> /home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/ament_index/resource_index/packages
+copying package.xml -> /home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT

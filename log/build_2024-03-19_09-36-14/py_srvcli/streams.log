@@ -1,0 +1,28 @@
+[0.446s] Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/src/py_srvcli': AMENT_PREFIX_PATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs LD_LIBRARY_PATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/prefix_override:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/python3.10/site-packages:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/build install --record /home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/install.log --single-version-externally-managed
+[0.583s] running egg_info
+[0.584s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.584s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.584s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.584s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.584s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.585s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.585s] adding license file 'LICENSE'
+[0.585s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.585s] running build
+[0.586s] running build_py
+[0.586s] copying py_srvcli/server.py -> /home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/build/lib/py_srvcli
+[0.586s] running install
+[0.586s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.586s]   warnings.warn(
+[0.586s] running install_lib
+[0.586s] copying /home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/build/lib/py_srvcli/server.py -> /home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.587s] byte-compiling /home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/server.py to server.cpython-310.pyc
+[0.588s] running install_data
+[0.588s] running install_egg_info
+[0.590s] removing '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[0.590s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.591s] running install_scripts
+[0.604s] Installing client script to /home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/py_srvcli
+[0.604s] Installing server script to /home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/py_srvcli
+[0.604s] writing list of installed files to '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/install.log'
+[0.619s] Invoked command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/src/py_srvcli' returned '0': AMENT_PREFIX_PATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs LD_LIBRARY_PATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/prefix_override:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/python3.10/site-packages:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/build install --record /home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/install.log --single-version-externally-managed

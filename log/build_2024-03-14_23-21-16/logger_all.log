@@ -1,0 +1,246 @@
+[0.527s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.528s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a5b272ee7d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a5b272ee020>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a5b272ee020>>)
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.554s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rishith/MRT/MRT_ASSIGNMENT_4'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/RRT) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/RRT) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/RRT) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/RRT) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/RRT) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/RRT) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/RRT) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/RRT) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/RRT) by extension 'ros'
+[0.564s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RRT' with type 'ros.ament_python' and name 'RRT'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_pkg']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_pkg'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_meta']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_meta'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ros']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ros'
+[0.565s] DEBUG:colcon.colcon_core.package_identification:Package 'src/more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[0.565s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.642s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'RRT' build argument 'cmake_args' from command line to 'None'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'RRT' build argument 'cmake_target' from command line to 'None'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'RRT' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'RRT' build argument 'cmake_clean_cache' from command line to 'False'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'RRT' build argument 'cmake_clean_first' from command line to 'False'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'RRT' build argument 'cmake_force_configure' from command line to 'False'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'RRT' build argument 'ament_cmake_args' from command line to 'None'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'RRT' build argument 'catkin_cmake_args' from command line to 'None'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'RRT' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.696s] DEBUG:colcon.colcon_core.verb:Building package 'RRT' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/RRT', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT', 'merge_install': False, 'path': '/home/rishith/MRT/MRT_ASSIGNMENT_4/src/RRT', 'symlink_install': True, 'test_result_base': None}
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.704s] DEBUG:colcon.colcon_core.verb:Building package 'more_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces', 'merge_install': False, 'path': '/home/rishith/MRT/MRT_ASSIGNMENT_4/src/more_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.712s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli', 'merge_install': False, 'path': '/home/rishith/MRT/MRT_ASSIGNMENT_4/src/py_srvcli', 'symlink_install': True, 'test_result_base': None}
+[0.720s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.728s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rishith/MRT/MRT_ASSIGNMENT_4/src/RRT' with build type 'ament_python'
+[0.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('RRT', 'ament_prefix_path')
+[0.738s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT/hook/ament_prefix_path.ps1'
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT/hook/ament_prefix_path.dsv'
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT/hook/ament_prefix_path.sh'
+[0.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.807s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.824s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rishith/MRT/MRT_ASSIGNMENT_4/src/more_interfaces' with build type 'ament_cmake'
+[0.824s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rishith/MRT/MRT_ASSIGNMENT_4/src/more_interfaces'
+[0.834s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.834s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.851s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rishith/MRT/MRT_ASSIGNMENT_4/src/py_srvcli' with build type 'ament_python'
+[0.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[0.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.045s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rishith/MRT/MRT_ASSIGNMENT_4/src/RRT'
+[1.053s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.053s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces -- -j12 -l12
+[1.269s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rishith/MRT/MRT_ASSIGNMENT_4/src/py_srvcli'
+[1.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces -- -j12 -l12
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces
+[1.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[1.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces' for CMake module files
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces' for CMake config files
+[1.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/bin'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/lib/python3.10/site-packages'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/bin'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.ps1'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.dsv'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.sh'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.bash'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.zsh'
+[1.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[1.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces' for CMake module files
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces' for CMake config files
+[1.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[1.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[1.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/bin'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/lib/python3.10/site-packages'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/bin'
+[1.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.ps1'
+[1.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.dsv'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.sh'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.bash'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.zsh'
+[1.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[1.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli': PYTHONPATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/prefix_override:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/build --no-deps install_data
+[1.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/RRT': PYTHONPATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/build/RRT/prefix_override:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rishith/MRT/MRT_ASSIGNMENT_4/build/RRT/build --no-deps install_data
+[2.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath_develop')
+[2.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli' returned '0': PYTHONPATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/prefix_override:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/build --no-deps install_data
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/share/py_srvcli/hook/pythonpath_develop.ps1'
+[2.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/share/py_srvcli/hook/pythonpath_develop.dsv'
+[2.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/py_srvcli/share/py_srvcli/hook/pythonpath_develop.sh'
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli' for CMake module files
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli' for CMake config files
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/bin'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/lib/python3.10/site-packages'
+[2.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/bin'
+[2.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/py_srvcli/package.ps1'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/py_srvcli/package.dsv'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/py_srvcli/package.sh'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/py_srvcli/package.bash'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/py_srvcli/package.zsh'
+[2.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[2.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('RRT', 'pythonpath_develop')
+[2.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/RRT' returned '0': PYTHONPATH=/home/rishith/MRT/MRT_ASSIGNMENT_4/build/RRT/prefix_override:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rishith/MRT/MRT_ASSIGNMENT_4/build/RRT/build --no-deps install_data
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/RRT/share/RRT/hook/pythonpath_develop.ps1'
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/RRT/share/RRT/hook/pythonpath_develop.dsv'
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/RRT/share/RRT/hook/pythonpath_develop.sh'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT' for CMake module files
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT' for CMake config files
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/lib'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/bin'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/lib/pkgconfig/RRT.pc'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/lib/python3.10/site-packages'
+[2.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('RRT', 'pythonpath')
+[2.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT/hook/pythonpath.ps1'
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT/hook/pythonpath.dsv'
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT/hook/pythonpath.sh'
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/bin'
+[2.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(RRT)
+[2.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT/package.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT/package.dsv'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT/package.sh'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT/package.bash'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/RRT/package.zsh'
+[2.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishith/MRT/MRT_ASSIGNMENT_4/install/RRT/share/colcon-core/packages/RRT)
+[2.133s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.134s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.148s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.148s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.148s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.158s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/local_setup.ps1'
+[2.167s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/_local_setup_util_ps1.py'
+[2.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/setup.ps1'
+[2.180s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/local_setup.sh'
+[2.181s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/_local_setup_util_sh.py'
+[2.181s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/setup.sh'
+[2.191s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/local_setup.bash'
+[2.191s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/setup.bash'
+[2.205s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/local_setup.zsh'
+[2.206s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishith/MRT/MRT_ASSIGNMENT_4/install/setup.zsh'

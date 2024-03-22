@@ -1,0 +1,20 @@
+[0.051s] Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces -- -j12 -l12
+[0.081s] Invoked command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces -- -j12 -l12
+[0.116s] Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --install /home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces
+[0.126s] -- Install configuration: ""
+[0.127s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[0.127s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[0.127s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[0.127s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[0.128s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/path.sh
+[0.128s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[0.128s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.bash
+[0.128s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.sh
+[0.128s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[0.128s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[0.128s] -- Installing: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.dsv
+[0.129s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[0.129s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[0.130s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[0.130s] -- Up-to-date: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.xml
+[0.130s] Invoked command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishith/MRT/MRT_ASSIGNMENT_4/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --install /home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces

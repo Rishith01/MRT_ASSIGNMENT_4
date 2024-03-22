@@ -1,0 +1,2 @@
+Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs -- -j12 -l12
+Invoked command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rishith/MRT/MRT_ASSIGNMENT_4/build/custom_msgs -- -j12 -l12

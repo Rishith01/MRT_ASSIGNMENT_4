@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_msgs/srv/Corners.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module custom_msgs {
+  module srv {
+    struct Corners_Request {
+      sensor_msgs::msg::Image image;
+    };
+    struct Corners_Response {
+      sequence<int64> ids;
+
+      sequence<int64> corners;
+    };
+  };
+};

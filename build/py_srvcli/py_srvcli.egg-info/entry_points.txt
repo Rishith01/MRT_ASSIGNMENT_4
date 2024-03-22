@@ -1,0 +1,5 @@
+[console_scripts]
+client = py_srvcli.client:main
+server = py_srvcli.server:main
+server_RRT = py_srvcli.server_RRT:main
+

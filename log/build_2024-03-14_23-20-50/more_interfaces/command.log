@@ -1,0 +1,1 @@
+Invoking command in '/home/rishith/MRT/MRT_ASSIGNMENT_4/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rishith/MRT/MRT_ASSIGNMENT_4/src/more_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces

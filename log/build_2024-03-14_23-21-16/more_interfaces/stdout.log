@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/path.sh
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/environment/path.dsv
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.bash
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.sh
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.zsh
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/local_setup.dsv
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.dsv
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+-- Symlinking: /home/rishith/MRT/MRT_ASSIGNMENT_4/install/more_interfaces/share/more_interfaces/package.xml

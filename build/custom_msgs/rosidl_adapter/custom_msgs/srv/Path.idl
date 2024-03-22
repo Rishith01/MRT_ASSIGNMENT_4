@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_msgs/srv/Path.srv
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module srv {
+    struct Path_Request {
+      sequence<int64> ids;
+
+      sequence<int64> corners;
+    };
+    struct Path_Response {
+      sequence<int64> path;
+    };
+  };
+};
